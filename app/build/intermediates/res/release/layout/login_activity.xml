@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+ <LinearLayout
+        android:id="@+id/progressbar_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="@drawable/back3"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+        </TableLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#C0C0C0" />
+
+     <ProgressBar
+         style="?android:attr/progressBarStyle"
+         android:layout_width="110dp"
+         android:layout_height="wrap_content"
+         android:layout_weight="0.14" />
+
+     <TextView
+         android:id="@+id/loading"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="#99CC00"
+         android:text="Loading data..." />
+ </LinearLayout>
+</RelativeLayout><!-- From: file:/C:/Users/Omar%20Elfarouk/AndroidStudioProjects/ChatMeStudio/app/src/main/res/layout/login_activity.xml -->

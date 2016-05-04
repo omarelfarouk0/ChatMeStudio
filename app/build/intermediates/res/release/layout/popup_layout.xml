@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+
+    android:background="@drawable/popup2"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal|fill_vertical"
+        android:layout_weight="0.14" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal|fill_vertical"
+        android:layout_weight="0.14" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal|fill_vertical"
+        android:layout_weight="0.14" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.14" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal|fill_vertical"
+        android:layout_weight="0.14" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal|fill_vertical"
+        android:layout_weight="0.14" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|fill_vertical"
+        android:layout_weight="0.11"
+        android:textColor="@color/white"
+        android:text="Message From" />
+
+    <TextView
+        android:id="@+id/sender_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|fill_vertical"
+        android:layout_weight="0.11"
+        android:text="t" />
+
+    <TextView
+        android:id="@+id/sender_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|fill_vertical"
+        android:layout_weight="0.11"
+        android:text="t" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|fill_vertical"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|fill_vertical"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|fill_vertical"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|fill_vertical"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|fill_vertical"
+        />
+</LinearLayout><!-- From: file:/C:/Users/Omar%20Elfarouk/AndroidStudioProjects/ChatMeStudio/app/src/main/res/layout/popup_layout.xml -->

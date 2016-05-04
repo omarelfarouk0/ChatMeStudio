@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.MORR.chatme.ChatMeActivity" >
+    <item android:id="@+id/clear"
+        android:icon="@drawable/clear"
+        android:title="Clear"
+        android:showAsAction="ifRoom"
+        />
+
+</menu>
+<!-- From: file:/C:/Users/Omar%20Elfarouk/AndroidStudioProjects/ChatMeStudio/app/src/main/res/menu/chat_me.xml -->
